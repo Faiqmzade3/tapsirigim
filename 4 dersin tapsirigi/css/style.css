@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar a{
+    text-decoration: none;
+}
+.header{
+    overflow: auto;
+    padding: 20px 5rem;
+    position: fixed;
+    width: 100%;
+}
+.logo svg{
+    width: 60%;
+}
+.logo{
+    float: left;
+}
+.navbar{
+    float: right;
+    margin-top: 7px;
+}
+.navbar a{
+    color: #fff;
+    font-size: 16px;
+    margin: 30px;
+}
+.slayder{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 10rem 0;
+}
+.text {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.text h1,
+.text p {
+    text-align: center;
+    padding: 16px;
+}
+
+.image-container {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.image-container img {
+    margin: 0 10px; 
+}
+
+.content {
+    text-align: left; 
+}
+
+
+
